@@ -18,7 +18,7 @@ public class TextureCarre extends GraphicalObject {
     super(pX, pY, pZ, angX, angY, angZ, r, g, b, scale);
 
     try {
-      this.cubeTex = TextureIO.newTexture(new File("assets/wood2.jpg"), true);
+      this.cubeTex = TextureIO.newTexture(new File("assets/wood.jpg"), true);
     } catch (IOException ex) {
       throw new RuntimeException(ex);
     }

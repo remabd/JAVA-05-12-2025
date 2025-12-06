@@ -26,7 +26,7 @@ public class Particule extends GraphicalObject {
     this.maxLife = 200;
 
     try {
-      this.cubeTex = TextureIO.newTexture(new File("assets/wood2.jpg"), true);
+      this.cubeTex = TextureIO.newTexture(new File("assets/wood.jpg"), true);
     } catch (IOException ex) {
       throw new RuntimeException(ex);
     }
@@ -41,7 +41,7 @@ public class Particule extends GraphicalObject {
     this.maxLife = maxLife;
 
     try {
-      this.cubeTex = TextureIO.newTexture(new File("assets/wood2.jpg"), true);
+      this.cubeTex = TextureIO.newTexture(new File("assets/wood.jpg"), true);
     } catch (IOException ex) {
       throw new RuntimeException(ex);
     }
